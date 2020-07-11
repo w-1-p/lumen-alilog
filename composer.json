@@ -19,9 +19,7 @@
   "authors": [
     {
       "name": "Sam Wang",
-      "email": "wangyipingyouxiang@163.com",
-      "homepage": "",
-      "role": "Developer"
+      "email": "wangyipingyouxiang@163.com"
     }
   ],
   "require": {
