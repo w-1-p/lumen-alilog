@@ -3,7 +3,7 @@
     "description": "Aliyun SLS Log For Lumen",
     "type": "library",
     "require": {
-        "illuminate/support": "~5.7",
+        "illuminate/support": "7.*",
         "php": "~7.0",
         "lokielse/aliyun-open-api-sls": "^1.0.0"
     },
