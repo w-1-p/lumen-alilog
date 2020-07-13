@@ -1,20 +1,12 @@
 {
     "name": "wangyipinglove/lumen-alilog",
-    "type": "library",
     "description": "Aliyun SLS Log For Lumen",
-    "keywords": [
-        "laravel",
-        "lumen",
-        "aliyun",
-        "sls",
-        "log",
-        "driver",
-        "cloud",
-        "日志",
-        "阿里云",
-        "lumen-sls"
-    ],
-    "homepage": "https://github.com/wangyipinglove/lumen-alilog",
+    "type": "library",
+    "require": {
+        "illuminate/support": "~5.7",
+        "php": "~7.0",
+        "lokielse/aliyun-open-api-sls": "^1.0.0"
+    },
     "license": "MIT",
     "authors": [
         {
@@ -22,15 +14,5 @@
             "email": "wangyipingyouxiang@163.com"
         }
     ],
-    "require": {
-        "illuminate/support": "~5.7",
-        "php": "~7.0",
-        "lokielse/aliyun-open-api-sls": "^1.0.0"
-    },
-    "minimum-stability": "dev",
-    "autoload": {
-        "psr-4": {
-            "Wangyipinglove\\LumenAliLog\\": "src"
-        }
-    }
+    "minimum-stability": "stable"
 }
