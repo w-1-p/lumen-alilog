@@ -27,7 +27,7 @@ ALI_LOGSTORE_ENDPOINT=xxxxxxxx
 ALI_LOGSTORE_ACCESS_KEY_ID=xxxxxxxx
 ALI_LOGSTORE_ACCESS_KEY_SECRET=xxxxxxxx
 ALI_LOGSTORE_PROJECT_NAME=my-project
-ALI_LOGSTORE_NAME=test-store
+ALI_LOGSTORE_NAME=test-app
 ```
 You should update `ALI_LOGSTORE_ENDPOINT` to `internal endpoint` in production mode
 
